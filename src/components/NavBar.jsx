@@ -21,7 +21,7 @@ const NavBar = () => {
 
     return (
         <ThemeProvider theme={theme} >
-            <AppBar position="sticky" sx={{ backgroundColor: 'inherit' }} >
+            <AppBar position="sticky" sx={{ backgroundColor: 'white' }} >
                 <Grid container alignItems="center" textAlign="center" sx={{ display: { xs: "none", sm: "flex" } }}>
                 <Grid item sm={2} md={1} p={2}>
                         <img alt="logo" src={logo} width="100%" height="auto" />
