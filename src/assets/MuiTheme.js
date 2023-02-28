@@ -12,15 +12,19 @@ const theme = createTheme({
         h1: {
             fontSize: "calc(2.1em + 2.1vw)"
         },
-        h5:{
-            fontSize:"calc(0.8em + 0.8vw)"
+        h4: {
+            fontSize: "calc(1em + 0.8vw)",
+            opacity: 0.8
         },
-        p:{
+        h5: {
+            fontSize: "calc(0.8em + 0.8vw)"
+        },
+        p: {
             fontSize: "calc(0.7em + 0.7vw)"
         },
         fontFamily: "Montserrat, sans-serif"
     },
-  
+
 })
 
 export default theme
