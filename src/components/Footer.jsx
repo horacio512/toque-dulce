@@ -1,4 +1,4 @@
-import { Button, Grid, Link, Typography } from '@mui/material'
+import { Button, Grid, Typography } from '@mui/material'
 import React from 'react'
 import theme from '../assets/MuiTheme'
 import Instagram from "../assets/logos/instagram.png"
@@ -22,13 +22,13 @@ const Footer = () => {
 
                     <Grid item xs={1} p={2}>
                         <Button href="https://www.instagram.com/toquedulce23/" target="_blank">
-                            <img src={Instagram} width="70%" height="auto" />
+                            <img src={Instagram} width="70%" height="auto" alt="instagram" />
                         </Button>
                     </Grid>
 
                     <Grid item xs={1} p={2}>
                         <Button href="https://wa.me/59892606528" target="_blank">
-                            <img src={Wpp} width="70%" height="auto" />
+                            <img src={Wpp} width="70%" height="auto"  alt="wpp"/>
                         </Button>
                     </Grid>
                 </Grid>

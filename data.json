@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Scones (10un)",
+        "price": 200,
+        "url": "https://mpago.la/2z3CwAY"
+    },
+    {
+        "id": 2,
+        "name": "Alfajores de Maicena (6un)",
+        "price": 135,
+        "url": "https://mpago.la/2YwCu1h"
+    },
+    {
+        "id": 3,
+        "name": "Alfajores de Chocolate (6un)",
+        "price": 165
+    },
+    {
+        "id": 4,
+        "name": "Alfajores de Maicena (15 un)",
+        "price": 300
+    },
+    {
+        "id": 5,
+        "name": "Alfajores de Chocolate (15un)",
+        "price": 375
+    },
+    {
+        "id": 6,
+        "name": "Cookies (8un)",
+        "price": 132
+    }
+]
