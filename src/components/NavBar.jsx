@@ -3,7 +3,7 @@ import logo from "../assets/logos/logo.jpg"
 import theme from "../assets/MuiTheme";
 import { Box, ThemeProvider } from "@mui/system";
 import { Button, Grid, Typography } from "@mui/material";
-import { Link } from "react-router-dom"
+import { HashLink } from "react-router-hash-link"
 
 const NavBar = () => {
     return (
@@ -15,8 +15,9 @@ const NavBar = () => {
             </Grid>
 
             <Box display="flex" justifyContent="center" sx={{ position: "sticky", top: 0, backgroundColor: "#cb6ce6" }} zIndex={1}>
-                <Button mr={10}><Link to="/"><Typography color="white" variant="p">Inicio</Typography></Link></Button>
-                <Button mr={10}><Link to="/contact"><Typography color="white" variant="p">Contacto</Typography></Link></Button>
+                <Button mr={10} sx={{ "&:hover": { opacity: 0.6 } }}><HashLink to="#top" smooth><Typography color="white" variant="p">Inicio</Typography></HashLink></Button>
+                <Button mr={10} sx={{ "&:hover": { opacity: 0.6 } }}><HashLink to="#store" smooth><Typography color="white" variant="p">Tienda</Typography></HashLink></Button>
+                <Button mr={10} sx={{ "&:hover": { opacity: 0.6 } }}><HashLink to="#contact" smooth><Typography color="white" variant="p">Contacto</Typography></HashLink></Button>
             </Box>
 
         </ThemeProvider >

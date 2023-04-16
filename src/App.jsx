@@ -3,7 +3,7 @@ import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import Footer from "./components/Footer"
 import Store from "./pages/Store"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter } from "react-router-dom"
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Home />
-      <Store/>
+      <Store />
       <Contact />
       <Footer />
 
