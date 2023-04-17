@@ -21,13 +21,13 @@ const Footer = () => {
                     <Grid item xs={12} display="flex" justifyContent="center">
                         <Grid item xs={3} sm={1} p={2}>
                             <Button href="https://www.instagram.com/toquedulce23/" target="_blank">
-                                <img src={Instagram} width="70%" height="auto" alt="instagram" />
+                                <img src={Instagram} loading='lazy' title="instagram" width="70%" height="auto" alt="instagram" />
                             </Button>
                         </Grid>
 
                         <Grid item xs={3} sm={1} p={2}>
                             <Button href="https://wa.me/59892606528" target="_blank">
-                                <img src={Wpp} width="70%" height="auto" alt="wpp" />
+                                <img src={Wpp} loading='lazy' title="wpp" width="70%" height="auto" alt="wpp" />
                             </Button>
                         </Grid>
                     </Grid>

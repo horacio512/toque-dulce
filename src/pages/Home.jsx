@@ -14,7 +14,7 @@ const Home = () => {
       <Grid container justifyContent="center" alignItems="center" id="home" mb={5} mt={3}>
 
         <Grid xs={12} sm={6} lg={4} item mb={3}>
-          <img src={home} style={{ borderRadius: "3%" }} alt="budin limon" title="" width="100%" height="auto" />
+          <img src={home} style={{ borderRadius: "3%" }} alt="imagen budin" title="budin limon" width="100%" height="auto" />
         </Grid>
         <Grid xs={12} sm={5} lg={5} item p={2} textAlign="center" >
           <Typography variant="h1" sx={{ textDecoration: "none" }} letterSpacing={3}>
@@ -28,7 +28,7 @@ const Home = () => {
           <Typography variant="h2">Soy Pastelera Profesional presente en cursos desde que tengo 10 años te invito a probar todas mis creaciones. </Typography>
         </Grid>
         <Grid xs={12} sm={6} lg={4} item mt={3} mb={2} order={{ xs: 1, sm: 2 }} >
-          <img src={home2} style={{ borderRadius: "3%" }} alt="alfajor chocolate" width="100%" height="auto" />
+          <img src={home2} style={{ borderRadius: "3%" }} title="alfajor de chocolate" alt="imagen alfajor" width="100%" height="auto" />
         </Grid>
 
 

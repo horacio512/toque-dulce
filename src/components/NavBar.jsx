@@ -10,7 +10,7 @@ const NavBar = () => {
         <ThemeProvider theme={theme}>
             <Grid container justifyContent="center" >
                 <Grid item xs={5} sm={4} md={3} lg={2} textAlign="center">
-                    <img src={logo} width="70%" alt="logo" height="auto" />
+                    <img src={logo} width="70%" title="logo" alt="logo" height="auto" />
                 </Grid>
             </Grid>
 

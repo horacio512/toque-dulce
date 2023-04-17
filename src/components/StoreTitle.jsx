@@ -17,7 +17,7 @@ const StoreTitle = ({ title }) => {
 
             <Grid item xs={12} display="flex" justifyContent="center" sx={{ borderBottomStyle: "ridge", borderBottomRightRadius: "10%", borderBottomLeftRadius: "10%" }} mb={2}>
                 <Grid item xs={4} display="flex" justifyContent="center" alignItems="center"><Typography variant="h3">Pagar con </Typography></Grid>
-                <Grid item xs={4} sm={2}><img src={mercadopago} alt="boton mercadopago" width="100%" height="auto" /> </Grid>
+                <Grid item xs={4} sm={2}><img src={mercadopago} loading='lazy' title="mercadopago" alt="boton mercadopago" width="100%" height="auto" /> </Grid>
             </Grid>
         </ThemeProvider >
 

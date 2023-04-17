@@ -22,7 +22,7 @@ const Boxes = (data) => {
                     <Grid item xs={4} sm={6}><Typography variant="h5" fontWeight={600} >${price}</Typography></Grid>
                     <Grid item xs={8} sm={6} display="flex" alignItems="end" onMouseEnter={() => { setMouseEnter(id) }} onMouseLeave={() => { setMouseEnter(0) }} sx={{ textAlign: { xs: "center", sm: "start" } }}  >
                         <Button href={url} target="_blank" sx={{ "&:hover": { transform: "rotate(15deg)" } }} >
-                            <img src={pay} width="50%" height="auto" alt="boton pagar" /></Button>
+                            <img src={pay} width="50%" loading='lazy' title="pagar" height="auto" alt="boton pagar" /></Button>
                         <Typography variant="p" sx={{ display: { xs: "none", sm: "flex" } }} color="#29E537" p={1} visibility={mouseEnter === id ? ("unset") : ("hidden")}  >Pagar</Typography>
                     </Grid>
 
