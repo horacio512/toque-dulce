@@ -16,7 +16,7 @@ const theme = createTheme({
             fontSize: "calc(1.6em + 1.6vw)"
         },
         h2: {
-            fontSize: "calc(1.3em + 1.3vw)"
+            fontSize: "calc(1.2em + 1vw)"
         },
         h3: {
             fontSize: "calc(1.3em + 1.3vw)",

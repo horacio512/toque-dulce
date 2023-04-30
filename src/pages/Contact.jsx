@@ -22,8 +22,8 @@ const Contact = () => {
       <Box pt={10}>
         <Card id="contact" >
           <CardContent >
-            <Typography mt={3} textAlign="center" mb={2} variant="h4" color="primary" sx={{ opacity: 1.5 }}>Contáctese con nosotros</Typography>
-            <Typography textAlign="center" mb={4} variant="h5" sx={{ opacity: 0.8 }}>Llene el formulario y nos contactaremos con usted a la brevedad!</Typography>
+            <Typography mt={3} textAlign="center" mb={2} variant="h4" color="primary" sx={{ opacity: 1.5 }}>Comunicate con nosotros</Typography>
+            <Typography textAlign="center" mb={4} variant="h5" sx={{ opacity: 0.8 }}>Completa el formulario y nos contactaremos contigo a la brevedad!</Typography>
             <form onSubmit={sendEmail}>
               <Grid spacing={1} container justifyContent="center" textAlign="center" mb={5}>
 
