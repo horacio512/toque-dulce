@@ -14,9 +14,10 @@ const NavBar = () => {
                 </Grid>
             </Grid>
 
-            <Box display="flex" justifyContent="center" sx={{ position: "sticky", top: 0, backgroundColor: "#cb6ce6", borderBottomLeftRadius: "10%", borderBottomRightRadius: "10%" }} zIndex={1}>
+            <Box display="flex" justifyContent="center" sx={{ position: "sticky", top: 0, backgroundColor: "#cb6ce6", borderBottomLeftRadius: "10%", borderBottomRightRadius: "10%" }} zIndex={2}>
                 <Button mr={10} sx={{ "&:hover": { opacity: 0.6 } }}><HashLink to="#top" smooth><Typography color="white" variant="p">Inicio</Typography></HashLink></Button>
                 <Button mr={10} sx={{ "&:hover": { opacity: 0.6 } }}><HashLink to="#store" smooth><Typography color="white" variant="p">Tienda</Typography></HashLink></Button>
+                <Button mr={10} sx={{ "&:hover": { opacity: 0.6 } }}><HashLink to="#ourwork" smooth><Typography color="white" variant="p">Nuestro Trabajo</Typography></HashLink></Button>
                 <Button mr={10} sx={{ "&:hover": { opacity: 0.6 } }}><HashLink to="#contact" smooth><Typography color="white" variant="p">Contacto</Typography></HashLink></Button>
             </Box>
 

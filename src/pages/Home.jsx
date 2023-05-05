@@ -15,7 +15,7 @@ const Home = () => {
 
         <Grid item xs={11} sm={10} display="flex" justifyContent="center" textAlign="center" mb={5}>
           <Typography variant="h1" sx={{ textDecoration: "none" }} letterSpacing={3}>
-            <Link color="primary" sx={{ cursor: "pointer" }} href="https://www.instagram.com/toquedulce23/" target="_blank">Toque Dulce </Link>
+            <Link color="primary" sx={{ cursor: "pointer" }} href="https://www.instagram.com/toquedulce23/" target="_blank">Toque Dulce <br /></Link>
             Presente en tus desayunos, meriendas o feches especiales.
           </Typography>
         </Grid>
@@ -35,7 +35,7 @@ const Home = () => {
         <Grid xs={12} sm={5} lg={5} textAlign="center" item p={2} order={{ xs: 2, sm: 1 }}>
           <Typography variant="h2">Con el fin de seguir ampliando mis conocimientos y gracias a una oportunindad que se me presentó, me encuentro ahorrando para
             viajar a España mas especificamente a la <Link href="https://www.usal.es/" sx={{ cursor: "pointer" }} target="_blank" color="#fffff">Universidad de Salamanca.</Link>
-      </Typography>
+          </Typography>
         </Grid>
         <Grid xs={12} sm={6} lg={4} item mt={3} mb={2} order={{ xs: 1, sm: 2 }} display="flex" justifyContent="center">
           <img src={home2} style={{ borderRadius: "3%" }} title="universidad de salamanca" alt="foto universidad" width="100%" height="auto" />
