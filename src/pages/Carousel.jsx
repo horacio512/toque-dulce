@@ -54,8 +54,8 @@ function Item(props) {
                         <h2>{props.item.name}</h2>
                     </Grid>
                     <Grid item xs={12} display="flex" justifyContent="center" mb={4}>
-                        <img src={props.item.url} loading="lazy" alt={props.item.name} title={props.item.name}
-                            height="auto" width="auto" style={{ maxWidth: { xs: "60%", sm: "80%" }, maxHeight: "80vh", borderRadius: "3%" }} />
+                        <img src={props.item.url} loading="eager" alt={props.item.name} title={props.item.name}
+                            height="auto" width="auto" style={{ maxWidth: { xs: "60%", sm: "80%" }, maxHeight: "70vh", borderRadius: "4%" }} />
                     </Grid>
 
                 </Grid>

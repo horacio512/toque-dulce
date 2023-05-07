@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logos/logo.jpg"
+import logo from "../assets/logos/logo.webp"
 import theme from "../assets/MuiTheme";
 import { Box, ThemeProvider } from "@mui/system";
 import { Button, Grid, Typography } from "@mui/material";

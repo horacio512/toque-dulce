@@ -3,7 +3,7 @@ import React from 'react'
 import theme from '../assets/MuiTheme'
 import { ThemeProvider } from '@mui/system'
 import { useState } from 'react'
-import pay from "../assets/logos/pay.png"
+import pay from "../assets/logos/pay.webp"
 
 const Boxes = (data) => {
 

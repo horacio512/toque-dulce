@@ -3,8 +3,8 @@ import React from 'react'
 import theme from '../assets/MuiTheme'
 import { ThemeProvider } from '@mui/system'
 import { Grid, Link, Typography } from '@mui/material'
-import home from "../assets/home.jpg"
-import home2 from "../assets/home2.jpg"
+import home from "../assets/home.webp"
+import home2 from "../assets/home2.webp"
 
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
         <Grid item xs={11} sm={10} display="flex" justifyContent="center" textAlign="center" mb={5}>
           <Typography variant="h1" sx={{ textDecoration: "none" }} letterSpacing={3}>
             <Link color="primary" sx={{ cursor: "pointer" }} href="https://www.instagram.com/toquedulce23/" target="_blank">Toque Dulce <br /></Link>
-            Presente en tus desayunos, meriendas o feches especiales.
+            Presente en tus desayunos, meriendas o fechas especiales.
           </Typography>
         </Grid>
 
@@ -26,7 +26,7 @@ const Home = () => {
         <Grid xs={12} sm={5} lg={5} item p={2} textAlign="center" >
           <Typography variant="h2" sx={{ textDecoration: "none" }} letterSpacing={3}>
             Hola, soy Melania y tengo 25 años oriunda de Colonia.
-            Realice el bachillerato de gastronomía en la UTU de Colonia del Sacramento y recientemente me recibi de pastelera profesional
+            Realice el bachillerato de gastronomía en la UTU de Colonia del Sacramento y recientemente me recibí de pastelera profesional
             en el <Link href="https://www.ithu.edu.uy/" sx={{ cursor: "pointer" }} target="_blank" color="#fffff">ITHU</Link> de Montevideo.
           </Typography>
 

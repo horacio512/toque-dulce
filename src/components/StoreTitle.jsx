@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, ThemeProvider } from '@mui/system'
 import theme from '../assets/MuiTheme'
 import { Grid, Typography } from '@mui/material'
-import mercadopago from "../assets/logos/mercadopago.png"
+import mercadopago from "../assets/logos/mercadopago.webp"
 import titleLogo from "../assets/logos/title.png"
 
 const StoreTitle = ({ title }) => {
